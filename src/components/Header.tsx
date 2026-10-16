@@ -34,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
     { label: 'CHAPTERS', page: 'chapters' },
     { label: 'BEST SELLERS', page: 'best-sellers' },
     { label: 'ALL PRODUCTS', page: 'all-products' },
-    { label: 'KORAKAGAZ JOURNAL', page: 'journal' },
+    { label: 'SLAYVANA JOURNAL', page: 'journal' },
   ];
 
   return (
@@ -83,8 +83,8 @@ export const Header: React.FC<HeaderProps> = ({
           }}
           className="text-center group text-left cursor-pointer focus-visible:outline-2"
         >
-          <span className="text-xl sm:text-2xl font-light tracking-[0.25em] text-[#7b3116] transition-transform group-hover:opacity-90 inline-block font-sans font-semibold">
-            K O R A K A G A Z
+          <span className="text-xl sm:text-2xl font-light tracking-[0.25em] text-[#7b3116] transition-transform group-hover:opacity-90 inline-block font-sans font-bold">
+            S L A Y V A N A
           </span>
         </button>
 
@@ -262,7 +262,7 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <X className="w-5 h-5" />
             </button>
-            <h3 className="text-xl font-semibold text-[#7b3116] mb-2">Welcome to Korakagaz</h3>
+            <h3 className="text-xl font-semibold text-[#7b3116] mb-2">Welcome to Slayvana</h3>
             <p className="text-xs text-[#7b3116]/80 mb-6">
               Track recent orders, manage shipping addresses, and sync your favorite handcrafted pieces.
             </p>

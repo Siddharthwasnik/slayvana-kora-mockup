@@ -15,7 +15,7 @@ export const StorySplit: React.FC<StorySplitProps> = ({ onExploreMore }) => {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl">
               <img
                 src={ASSET_IMAGES.storyPolaroid}
-                alt="Korakagaz community polaroid memory wall"
+                alt="Slayvana community polaroid memory wall"
                 loading="lazy"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -23,7 +23,7 @@ export const StorySplit: React.FC<StorySplitProps> = ({ onExploreMore }) => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
               <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white text-[11px] sm:text-xs">
                 <span className="font-medium tracking-wider bg-black/50 backdrop-blur-sm px-3 py-1 rounded-full">
-                  1 Year Celebration · Indore Pop-up
+                  1 Year Celebration · Pop-up
                 </span>
                 <span className="opacity-90">October 2026</span>
               </div>
@@ -41,7 +41,7 @@ export const StorySplit: React.FC<StorySplitProps> = ({ onExploreMore }) => {
             </p>
 
             <p className="text-[#7b3116]/90 text-base sm:text-lg font-medium">
-              Because Korakagaz wouldn&apos;t be Korakagaz without you.
+              Because Slayvana wouldn&apos;t be Slayvana without you.
             </p>
 
             <div className="py-2 text-center my-1">
@@ -49,7 +49,7 @@ export const StorySplit: React.FC<StorySplitProps> = ({ onExploreMore }) => {
                 And that&apos;s exactly what
               </p>
               <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-[#7b3116]/30 bg-[#fffaea] text-[#7b3116] font-serif text-xl sm:text-2xl tracking-[0.2em]">
-                <span>KK</span>
+                <span>SLAYVANA</span>
                 <span className="text-sm">✦</span>
                 <span>CORE</span>
               </div>

@@ -51,10 +51,10 @@ export const DesignCatalogView: React.FC = () => {
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#7b3116]/70 mb-1">
                 <span>Design System &amp; UI Guidance Catalog</span>
                 <span>·</span>
-                <span className="text-[#7b3116] font-bold">Korakagaz / Slayvana</span>
+                <span className="text-[#7b3116] font-bold">Slayvana Storefront</span>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-[#7b3116]">
-                Korakagaz Token-Driven Storefront Spec
+                Slayvana Token-Driven Storefront Spec
               </h1>
             </div>
 

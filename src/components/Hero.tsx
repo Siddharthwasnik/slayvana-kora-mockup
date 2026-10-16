@@ -32,7 +32,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopDrop }) => {
           {/* KK CORE Emblem */}
           <div className="mb-4">
             <div className="text-3xl sm:text-5xl md:text-6xl font-serif tracking-[0.2em] font-light text-white drop-shadow-md flex items-center justify-center gap-3">
-              <span>KK</span>
+              <span>SLAYVANA</span>
               <span className="text-[#ebdcca] text-2xl sm:text-3xl">✦</span>
               <span>CORE</span>
             </div>

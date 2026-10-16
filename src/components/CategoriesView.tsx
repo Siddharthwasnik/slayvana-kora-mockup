@@ -30,7 +30,7 @@ export const CategoriesView: React.FC<CategoriesViewProps> = ({
   const [selectedSize, setSelectedSize] = useState<string>('All');
 
   const categories = ['All', 'Short Kurti', 'Kurta Set', 'Shirt', 'Tunic'];
-  const collections = ['All', 'KK Core', 'Korakagaz Classics', 'The Mithai Box'];
+  const collections = ['All', 'Slayvana Core', 'Slayvana Classics', 'The Mithai Box'];
   const sizes = ['All', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
 
   const filteredProducts = useMemo(() => {

@@ -5,7 +5,7 @@ export interface Product {
   originalPrice?: number;
   tag?: 'NEW ARRIVAL' | 'MOST WANTED' | 'FESTIVE DROP' | 'BESTSELLER';
   category: 'Short Kurti' | 'Kurta Set' | 'Shirt' | 'Tunic';
-  collection: 'KK Core' | 'Korakagaz Classics' | 'The Mithai Box';
+  collection: 'Slayvana Core' | 'Slayvana Classics' | 'The Mithai Box';
   sizes: ('XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL')[];
   image: string;
   secondaryImage?: string;

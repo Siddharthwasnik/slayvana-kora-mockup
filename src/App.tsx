@@ -104,8 +104,8 @@ export default function App() {
   };
 
   // Filtered collections for homepage
-  const kkCoreProducts = PRODUCTS.filter(p => p.collection === 'KK Core');
-  const classicsProducts = PRODUCTS.filter(p => p.collection === 'Korakagaz Classics');
+  const kkCoreProducts = PRODUCTS.filter(p => p.collection === 'Slayvana Core');
+  const classicsProducts = PRODUCTS.filter(p => p.collection === 'Slayvana Classics');
   const wishlistedProducts = PRODUCTS.filter(p => wishlistIds.has(p.id));
 
   return (
@@ -129,7 +129,7 @@ export default function App() {
           <div className="animate-fadeIn">
             {/* 1. Hero Section */}
             <Hero onShopDrop={() => {
-              const el = document.getElementById('kk-core-section');
+              const el = document.getElementById('slayvana-core-section');
               el?.scrollIntoView({ behavior: 'smooth' });
             }} />
 
@@ -139,14 +139,14 @@ export default function App() {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }} />
 
-            {/* 3. KK CORE Collection Grid */}
-            <section id="kk-core-section" className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#ebe0dc]">
+            {/* 3. SLAYVANA CORE Collection Grid */}
+            <section id="slayvana-core-section" className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#ebe0dc]">
               <div className="text-center mb-10">
                 <span className="text-xs tracking-[0.2em] uppercase text-[#7b3116]/70 block mb-1">
                   [ new arrivals ]
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-light tracking-[0.15em] text-[#7b3116] flex items-center justify-center gap-2">
-                  <span>KK</span>
+                  <span>SLAYVANA</span>
                   <span className="text-sm">✦</span>
                   <span>CORE</span>
                 </h2>
@@ -179,11 +179,11 @@ export default function App() {
               </div>
             </section>
 
-            {/* 4. KORAKAGAZ CLASSICS Collection */}
+            {/* 4. SLAYVANA CLASSICS Collection */}
             <section className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-10">
                 <h2 className="text-2xl sm:text-3xl font-light tracking-[0.15em] text-[#7b3116] uppercase">
-                  KORAKAGAZ CLASSICS
+                  SLAYVANA CLASSICS
                 </h2>
               </div>
 
@@ -229,7 +229,7 @@ export default function App() {
         {(currentPage === 'categories' || currentPage === 'all-products' || currentPage === 'best-sellers' || currentPage === 'chapters') && (
           <CategoriesView
             products={currentPage === 'best-sellers' ? PRODUCTS.filter(p => p.isBestseller) : PRODUCTS}
-            initialCollection={currentPage === 'chapters' ? 'KK Core' : 'All'}
+            initialCollection={currentPage === 'chapters' ? 'Slayvana Core' : 'All'}
             onQuickView={setSelectedProduct}
             onAddToCart={handleAddToCart}
             wishlistIds={wishlistIds}
@@ -251,7 +251,7 @@ export default function App() {
         {/* Order tracking view */}
         {currentPage === 'order-success' && (
           <div className="max-w-2xl mx-auto py-16 px-4 text-center text-[#7b3116]">
-            <h2 className="text-2xl font-light tracking-wide mb-2">Track Your Korakagaz Order</h2>
+            <h2 className="text-2xl font-light tracking-wide mb-2">Track Your Slayvana Order</h2>
             <p className="text-xs text-[#7b3116]/80 mb-6">
               Enter your 6-digit Order ID sent via SMS or WhatsApp to view real-time courier updates.
             </p>

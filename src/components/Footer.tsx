@@ -32,7 +32,7 @@ export const Footer: React.FC<FooterProps> = ({
       <div className="bg-[#fffaea] border-b border-[#ebdcca] py-8 sm:py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-xl">
           <h3 className="text-lg sm:text-xl font-light tracking-widest uppercase mb-2">
-            Join the Korakagaz Club
+            Join the Slayvana Club
           </h3>
           <p className="text-xs sm:text-sm text-[#7b3116]/80 mb-4 font-light">
             Be the first to hear about new chapters, festive drops, secret party invites, and member-only restocks.
@@ -82,10 +82,10 @@ export const Footer: React.FC<FooterProps> = ({
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0 text-[#7b3116]" />
                 <a 
-                  href="mailto:support@korakagazindia.com" 
+                  href="mailto:support@slayvana.com" 
                   className="hover:underline transition-all"
                 >
-                  support@korakagazindia.com
+                  support@slayvana.com
                 </a>
               </p>
               <p className="flex items-center gap-2">
@@ -235,7 +235,7 @@ export const Footer: React.FC<FooterProps> = ({
               HANDCRAFTED IN INDIA
             </h4>
             <p className="text-xs text-[#7b3116]/80 leading-relaxed font-light">
-              Every Korakagaz piece is crafted from 100% natural, breathable Indian cottons with mindful finishing in our Indore atelier.
+              Every Slayvana piece is crafted from 100% natural, breathable Indian cottons with mindful finishing in our atelier.
             </p>
             <div className="pt-2">
               <span className="inline-block text-[11px] font-semibold px-3 py-1 bg-[#fffaea] border border-[#ebdcca] rounded-full text-[#7b3116]">
@@ -264,8 +264,8 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Copyright */}
           <div>
-            <p className="text-center md:text-left text-[11px] tracking-wide">
-              © 2026 · KORAKAGAZ INDIA · SLAYVANA
+            <p className="text-center md:text-left text-[11px] tracking-wide font-medium">
+              © 2026 · SLAYVANA (slayvana.com) · ALL RIGHTS RESERVED
             </p>
           </div>
 
