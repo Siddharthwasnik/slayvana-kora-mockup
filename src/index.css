@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-primary: Helvetica, Arial, sans-serif;
+    --font-size-xs: 11px;
+    --font-size-sm: 12px;
+    --font-size-md: 13px;
+    --font-size-lg: 15px;
+    --font-size-xl: 16px;
+    --font-size-2xl: 22px;
+    --font-size-3xl: 28px;
+    --font-size-4xl: 32px;
+
+    --color-text-primary: #7b3116;
+    --color-text-secondary: #ffffff;
+    --color-surface-base: #000000;
+    --color-surface-raised: #fffaea;
+    --color-border-default: #ebe0dc;
+    --color-border-strong: #ebdcca;
+
+    --space-1: 6px;
+    --space-2: 10px;
+    --space-3: 10.4px;
+    --space-4: 20px;
+    --space-5: 25px;
+    --space-6: 28px;
+    --space-7: 60px;
+
+    --radius-xs: 9999px;
+    --shadow-1: rgba(255, 255, 255, 0.15) 0px 2px 10px 0px;
+    --shadow-2: rgba(123, 49, 22, 0.15) 0px 2px 10px 0px;
+
+    --motion-instant: 100ms;
+    --motion-fast: 150ms;
+    --motion-normal: 200ms;
+    --motion-slow: 250ms;
+    --motion-slower: 300ms;
+    --motion-step6: 450ms;
+  }
+
+  body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-xl);
+    line-height: 26.4px;
+    color: var(--color-text-primary);
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 26s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Focus visible styles for WCAG 2.2 AA */
+:focus-visible {
+  outline: 2px solid var(--color-text-primary) !important;
+  outline-offset: 3px !important;
+}
+
+/* Custom scrollbar for drawers */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fbf8f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-primary);
+}

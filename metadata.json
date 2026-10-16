@@ -1,0 +1,6 @@
+{
+  "name": "Korakagaz | Slayvana Storefront",
+  "description": "Token-driven responsive e-commerce storefront for Korakagaz (Slayvana) featuring KK Core, Classics, Mithai Box drops, PDP with size selector, bag checkout, and interactive Design System catalog.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
